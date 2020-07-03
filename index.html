@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Football Project</title> <!--Page Title-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css"> <!--CSS Tag-->
+    </head>
+    <body>    
+        <div id="container">        <!--main window div -->
+            <div style="margin-left: 10px;" id="left"> <!--Left Player Image div-->
+                <div>
+                <img id="Player 1" class="player" src="./Ronaldo.png" alt="Player 1">  <!--Player 1 Image-->
+                </div>
+            </div>
+            <div style="margin-right: 400px;" id="right"> <!--Right Player Image div-->
+                <div>
+                <img id="Player 2" class="player" src="./Messi.png" alt="Player 2">   <!--Player 2 Image-->
+                </div>
+            </div>
+            <div style="margin-left: 170px;" id="center"> <!--Center stats table div-->
+                <table>                                      <!--Stats Table-->
+                    <tr><th colspan="3"><h2>Player Stats</h2></th></tr>
+                    <tr>
+                        <td><img id="Flag 1" class="flag" src="" alt="Flag 1"></td> <!--Country 1 Flag-->
+                        <td>Player Country</td>
+                        <td><img id="Flag 2" class="flag" src="" alt="Flag 2"></td> <!--Country 2 Flag-->
+                    </tr>
+                    <tr>
+                        <td id="Name 1"></td> <!--Player 1 Name-->
+                        <td>Name</td>
+                        <td id="Name 2"></td> <!--Player 2 Name-->
+                    </tr>
+                    <tr>
+                        <td><img id="Club 1" class="club" src="" alt="Club 1"></td> <!--Club 1 Logo-->
+                        <td>Club</td>
+                        <td><img id="Club 2" class="club" src="" alt="Club 2"></td> <!--Club 2 Logo-->
+                    </tr>
+                    <tr>
+                        <td id="Goals 1"></td> <!--Player 1 Goals-->
+                        <td>Goals</td>
+                        <td id="Goals 2"></td> <!--Player 2 Goals-->
+                    </tr>
+                    <tr>
+                        <td id="Foot 1"></td> <!--Player 1 Prefferred Foot-->
+                        <td>Foot</td>
+                        <td id="Foot 2"></td> <!--Player 2 Prefferred Foot-->
+                    </tr>
+                    <tr>
+                        <td id="Speed 1"></td> <!--Player 1 Speed-->
+                        <td>Speed</td>
+                        <td id="Speed 2"></td> <!--Player 2 Speed-->
+                    </tr>
+                    <tr>
+                        <td id="Shoot 1"></td> <!--Player 1 Shoot-->
+                        <td>Shoot</td>
+                        <td id="Shoot 2"></td> <!--Player 2 Shoot-->
+                    </tr>
+                    <tr>
+                        <td id="Passing 1"></td> <!--Player 1 Passing-->
+                        <td>Passing</td>
+                        <td id="Passing 2"></td> <!--Player 2 Passing-->
+                    </tr>
+                    <tr>
+                        <td id="Extra 1"></td> <!--Player 1 Extra-->
+                        <td>Extra</td>
+                        <td id="Extra 2"></td> <!--Player 2 Extra-->
+                    </tr>
+                </table>
+            </div>
+          </div>
+        </div>    
+        <div class="overlay"></div>        <!--Image Opacity Overlay-->
+        <script src="./script.js" async defer></script> <!--JavaScript Tag-->
+    </body>
+</html>
