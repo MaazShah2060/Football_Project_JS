@@ -35,3 +35,16 @@ document.getElementById("Speed 1").innerHTML = Ronaldo.speed;
 document.getElementById("Shoot 1").innerHTML = Ronaldo.shoot;
 document.getElementById("Passing 1").innerHTML = Ronaldo.passing;
 document.getElementById("Extra 1").innerHTML = Ronaldo.extra;
+
+// Setting up Messi in HTML
+
+document.getElementById("Player 2").setAttribute('src',Messi.img);
+document.getElementById("Flag 2").setAttribute('src',Messi.country);
+document.getElementById("Name 2").innerHTML = Messi.name;
+document.getElementById("Club 2").setAttribute('src',Messi.club);
+document.getElementById("Goals 2").innerHTML = Messi.goals;
+document.getElementById("Foot 2").innerHTML = Messi.Foot;
+document.getElementById("Speed 2").innerHTML = Messi.speed;
+document.getElementById("Shoot 2").innerHTML = Messi.shoot;
+document.getElementById("Passing 2").innerHTML = Messi.passing;
+document.getElementById("Extra 2").innerHTML = Messi.extra;
