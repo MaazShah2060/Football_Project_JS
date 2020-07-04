@@ -28,3 +28,10 @@ const Ronaldo = new player("Ronaldo","./img/country/Portugal.png","./img/club/Ju
 document.getElementById("Player 1").setAttribute('src',Ronaldo.img);
 document.getElementById("Flag 1").setAttribute('src',Ronaldo.country);
 document.getElementById("Name 1").innerHTML = Ronaldo.name;
+document.getElementById("Club 1").setAttribute('src',Ronaldo.club);
+document.getElementById("Goals 1").innerHTML = Ronaldo.goals;
+document.getElementById("Foot 1").innerHTML = Ronaldo.Foot;
+document.getElementById("Speed 1").innerHTML = Ronaldo.speed;
+document.getElementById("Shoot 1").innerHTML = Ronaldo.shoot;
+document.getElementById("Passing 1").innerHTML = Ronaldo.passing;
+document.getElementById("Extra 1").innerHTML = Ronaldo.extra;
