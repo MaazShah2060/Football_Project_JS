@@ -1,3 +1,20 @@
+// Setting up todays Date and Hour
+
+var today = new Date();
+var hour = today.getHours();
+
+// Image for Day-time
+if(hour > 5 && hour <=12) {
+    document.getElementsByTagName('body')[0].style.backgroundImage = "url('./img/background/background-day.jpg')";
+}
+// Image for Evening
+else if(hour > 12 && hour < 20) {
+    document.getElementsByTagName('body')[0].style.backgroundImage = "url('./img/background/background-evening.jpeg')";
+}
+// Image for Night-Time
+else {
+    document.getElementsByTagName('body')[0].style.backgroundImage = "url('./img/background/Stadium.jpg')";
+}
 // main players class
 
 class player {
